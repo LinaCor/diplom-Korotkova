@@ -134,7 +134,7 @@ legend {
 
 .radio-text {
     display: inline-block;
-    padding-right: 13px;
+    margin-right: 13px;
     cursor: pointer;
 }
 
@@ -142,7 +142,7 @@ legend {
     content: " ";
     width: 17px;
     height: 17px;
-    padding-right: 5px;
+    margin-right: 5px;
     vertical-align: bottom;
     display: inline-block;
     background: url("../svg/form-empty-circle.svg") center center/17px no-repeat;
@@ -571,7 +571,7 @@ h1 {
 }
 
 .mailing {
-    margin-top: 65px;
+    margin-top: 60px;
 }
 
 .field-email {
@@ -607,7 +607,7 @@ h1 {
 }
 
 .tags {
-    margin-top: 65px;
+    margin-top: 60px;
 }
 
 .list-aside-tags {
@@ -634,7 +634,11 @@ h1 {
 }
 
 .tems {
-    margin-top: 48px;
+    margin-top: 44px;
+}
+
+.heading-tems {
+    margin-bottom: 30px;
 }
 
 .list-aside-tems {
@@ -925,7 +929,7 @@ sup {
     .radio-text::before {
         width: 26px;
         height: 26px;
-        padding-right: 10px;
+        margin-right: 10px;
         vertical-align: middle;
         background: url("../svg/form-empty-circle.svg") center center/26px no-repeat;
     }
@@ -1131,38 +1135,43 @@ sup {
 
     .header-content {
         min-height: 390px;
-        padding-top: 30px;
-        position: relative;
+        padding-top: 20px;
     }
 
     .menu {
-        margin-right: 15px;
-        padding-top: 25px;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 0;
     }
 
     .menu-logo {
         height: 60px;
         width: 270px;
-        position: absolute;
-        top: 200px;
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto;
+        margin-top: 155px;
+    }
+
+    .menu-button {
+        height: 50px;
+        width: 50px;
+        padding-right: 10px;
+        align-self: flex-end;
     }
 
     .menu-button::before {
         width: 23px;
         height: 23px;
-        top: -25px;
+        top: 10px;
+        left: 10px;
         background: url("../svg/burger.svg") center center/23px no-repeat;
     }
 
     h1 {
         width: 280px;
         font-size: 26px;
-        margin-top: 265px;
         line-height: 1.4;
+        margin-top: 30px;
     }
 
     .trends {
