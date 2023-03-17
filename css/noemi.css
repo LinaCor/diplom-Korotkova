@@ -1126,6 +1126,9 @@ sup {
 }
 
 @media (min-width: 641px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /*поворотная версия для планшета*/
+
     .container {
         flex-wrap: nowrap;
     }
@@ -1146,6 +1149,8 @@ sup {
 
 @media (max-width: 641px),
 (max-width: 900px) and (orientation: landscape) {
+
+    /*версия для мобилки*/
 
     .popup-content {
         min-width: 330px;
@@ -1225,25 +1230,43 @@ sup {
         font-size: 16px;
     }
 
+    .heading-trends {
+        margin-bottom: 35px;
+    }
+
     .trends-post {
         min-height: 230px;
         width: 100%;
         margin-right: 0;
         margin-bottom: 3px;
+        padding: 18px;
     }
 
     .trends-text {
-        bottom: 10%;
+        padding-top: 10%;
+        padding-left: 6%;
+    }
+
+    .trends-item {
+        margin-bottom: 15px;
+    }
+
+    .trends-title {
+        line-height: 20px;
     }
 
     .page {
         max-width: 330px;
         flex-direction: column;
-        margin-bottom: 45px;
+        margin-bottom: 48px;
     }
 
     .post-list {
-        margin-bottom: 45px;
+        margin-bottom: 56px;
+    }
+
+    .post-list:last-child {
+        margin-bottom: 50px;
     }
 
     .image-post {
@@ -1253,7 +1276,16 @@ sup {
 
     .date-post,
     .autor-post {
-        line-height: 35px;
+        line-height: 40px;
+    }
+
+    .title-text {
+        font-size: 14px;
+        max-width: 325px;
+    }
+
+    .title-text:nth-of-type(2) {
+        margin-top: 0;
     }
 
     .aside {
@@ -1261,10 +1293,6 @@ sup {
         margin-top: 12px;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .heading-aside {
-        margin-bottom: 30px;
     }
 
     .form-aside {
@@ -1279,6 +1307,14 @@ sup {
         margin-top: 40px;
     }
 
+    .tags {
+        margin-top: 45px;
+    }
+
+    .heading-tags {
+        margin-bottom: 45px;
+    }
+
     .tags-aside {
         padding: 2px 12px;
     }
@@ -1287,16 +1323,21 @@ sup {
         width: 330px;
     }
 
+    .heading-shop {
+        margin-bottom: 15px;
+    }
+
     .container-shop {
         justify-content: center;
     }
 
     .trends-shop {
-        min-height: 490px;
+        min-height: 470px;
     }
 
     .image-bkgnd-shop {
-        height: 290px;
+        max-width: 285px;
+        height: 285px;
     }
 
     .image-pillow {
@@ -1304,11 +1345,11 @@ sup {
     }
 
     .image-rabbit {
-        background-image: url("../images/mobile/shop-item-mobile1.jpg");
+        background-image: url("../images/mobile/shop-item-mobile2.jpg");
     }
 
     .image-frame {
-        background-image: url("../images/mobile/shop-item-mobile1.jpg");
+        background-image: url("../images/mobile/shop-item-mobile3.jpg");
     }
 
     .shop-text {
@@ -1316,7 +1357,6 @@ sup {
     }
 
     .copyr {
-        margin-top: 50px;
         margin-bottom: 45px;
     }
 }
