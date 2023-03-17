@@ -326,7 +326,7 @@ h1 {
     width: 25%;
     box-sizing: border-box;
     margin-right: 5px;
-    padding: 20px;
+    padding: 24px;
     position: relative;
     z-index: 1;
 }
@@ -371,7 +371,7 @@ h1 {
     box-sizing: border-box;
     margin-top: auto;
     line-height: 0.8;
-    padding: 35px 20px 28px 30px;
+    padding: 12% 8% 8.4% 9%;
     outline: 3px solid rgba(181, 159, 91, 0.6);
 }
 
@@ -395,7 +395,7 @@ h1 {
 
 .trends-title {
     display: inline-block;
-    line-height: 26px;
+    line-height: 24px;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 20px;
@@ -424,7 +424,7 @@ h1 {
 .list-post {
     list-style: none;
     display: flex;
-    line-height: 10px;
+    line-height: 6px;
 }
 
 .title-post {
@@ -926,6 +926,10 @@ sup {
         font-size: 18px;
     }
 
+    .radio-text {
+        margin-right: 24px;
+    }
+
     .radio-text::before {
         width: 26px;
         height: 26px;
@@ -948,6 +952,11 @@ sup {
         margin-left: 35px;
         margin-right: 35px;
         padding-top: 35px;
+    }
+
+    .menu-logo {
+        height: 40px;
+        width: 157px;
     }
 
     .menu-button {
@@ -991,7 +1000,7 @@ sup {
 
     .trends {
         max-width: 768px;
-        margin-bottom: 55px;
+        margin-bottom: 54px;
     }
 
     .trends-post {
@@ -999,11 +1008,16 @@ sup {
         width: calc(50% - 1.5px);
         margin-right: 0;
         margin-bottom: 3px;
+        padding-bottom: 15px;
+    }
+
+    .trends-text {
+        padding-top: 11%;
     }
 
     .trends-title {
         font-size: 17px;
-        line-height: 20px;
+        line-height: 24px;
     }
 
     .page {
@@ -1046,6 +1060,19 @@ sup {
         margin-top: 0;
     }
 
+    .heading-aside {
+        margin-bottom: 32px;
+    }
+
+    .mailing {
+        margin-top: 58px;
+    }
+
+    .heading-aside {
+        margin-bottom: 38px;
+    }
+
+
     .heading-shop {
         font-size: 18px;
     }
@@ -1058,7 +1085,9 @@ sup {
 
     .trends-shop {
         margin-right: 0;
+        margin-top: 26px;
         min-height: 460px;
+        max-width: 338px;
     }
 
     .trends-shop:last-child {
@@ -1088,6 +1117,11 @@ sup {
 
     .shop-title {
         font-size: 17px;
+        margin-bottom: 0;
+    }
+
+    .copyr {
+        margin-top: 45px;
     }
 }
 
