@@ -891,7 +891,7 @@ sup {
     margin: -1px;
     padding: 0;
     border: 0;
-    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
     overflow: hidden;
 }
 
@@ -1000,7 +1000,7 @@ sup {
 
     .trends {
         max-width: 768px;
-        margin-bottom: 54px;
+        margin-bottom: 50px;
     }
 
     .trends-post {
@@ -1032,6 +1032,10 @@ sup {
         position: relative;
     }
 
+    .post-list:last-child {
+        margin-bottom: 60px;
+    }
+
     .post-list::after {
         content: "  ";
         position: absolute;
@@ -1054,14 +1058,11 @@ sup {
 
     .title-post {
         font-size: 17px;
+        margin-top: 12px;
     }
 
     .title-text {
         margin-top: 0;
-    }
-
-    .heading-aside {
-        margin-bottom: 32px;
     }
 
     .mailing {
@@ -1069,9 +1070,16 @@ sup {
     }
 
     .heading-aside {
-        margin-bottom: 38px;
+        margin-bottom: 36px;
     }
 
+    .image-aside {
+        margin-top: 5px;
+    }
+
+    .post-aside {
+        margin-bottom: 16px;
+    }
 
     .heading-shop {
         font-size: 18px;
@@ -1296,7 +1304,7 @@ sup {
     }
 
     .form-aside {
-        margin-top: 75px;
+        margin-top: 68px;
     }
 
     .field-search {
