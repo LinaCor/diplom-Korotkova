@@ -1282,6 +1282,10 @@ sup {
         min-height: 255px;
     }
 
+    .title-post {
+        margin-top: 10px;
+    }
+
     .date-post,
     .autor-post {
         line-height: 40px;
