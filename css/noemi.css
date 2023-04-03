@@ -905,14 +905,13 @@ sup {
     color: #999999;
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 769px) {
     .menu-button {
         display: none;
     }
 }
 
-@media (max-width: 641px),
-(min-width: 641px) and (max-width: 1200px) {
+@media (max-width: 768px) {
     /*версия для планшета*/
 
     .popup-close::before {
@@ -1133,8 +1132,7 @@ sup {
     }
 }
 
-@media (min-width: 641px) and (max-width: 1080px) and (orientation: landscape) {
-
+@media (max-width: 768px) and (orientation: landscape) {
     /*поворотная версия для планшета*/
 
     .container {
@@ -1155,9 +1153,7 @@ sup {
     }
 }
 
-@media (max-width: 641px),
-(max-width: 900px) and (orientation: landscape) {
-
+@media (max-width: 360px) {
     /*версия для мобилки*/
 
     .popup-content {
@@ -1373,7 +1369,9 @@ sup {
     }
 }
 
-@media (min-width: 320px) and (max-width: 900px) and (orientation: landscape) {
+@media (max-width: 360px) and (orientation: landscape) {
+    /*поворотная версия для мобилки*/
+
     .trends {
         max-width: 100%;
     }
